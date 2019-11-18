@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "site": "escola-xesque",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+    
+  }
+}
